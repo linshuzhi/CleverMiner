@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="34" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+  <tile id="29">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="Collectable" value="Pick"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztmTsSgCAMBak5hoXaef/b2TKMxSPmT4rXoeO6ESIcrbWj4j4P8boOZBxrzakZTl6qHw+8EZ7d2u9K7s14s/jl8Cb5LZXfeEHW3z6MXbn36YDvj1dtv1LzspRfNJeRP29+pWpj5LHwqx2Up3hjpnhpvMh6y9n/Uef18lu8xRs3nng1ektuXu1+2JrXe3bmzfa/8NXfoBzzOKm9Mul9EcTrfLYSOWgdZ+FF3kcWXnR/MlI9e1z/rc7YXmsIA0U=
+  </data>
+ </layer>
+ <layer name="Land" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEOwCAIBEBeYv//y56aGA9IK7CrxYRbtTvgwSYirYq+ZGHfbK3+g6msy9uL6l3v0XqhZURlR3kzMkZ5L0LvKfP1OO/tGUgvcr6zVV7/u5btvZy9Htl2mi/jPWDwZvbwVO/f5lve8q56Lf3w7NmXszy9O9TzxtDeGid5rau8exabN/ofEd6MvjB5mau8Z3nHzBantjcjY+Z8x2/Q84r2jm503vLGeHs3ezHmRGW6AT3IyEs=
+  </data>
+ </layer>
+ <layer name="meta" width="60" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztmTEOwCAQw/gS//9cV9ThyNChcWKJzYt1SAhYq5DZwjrdJNrLpr1s2suG0Kucv/twE6D1ps331kHtTZuvOmd32jt77rR39txp7+y5097Zc6e9s+dOcm/SfeEr7+8oc33/rTij7mNK7w1Sr/o+SdrPSTywvhlF
+  </data>
+ </layer>
+ <objectgroup name="Obj" width="60" height="34">
+  <object name="SpawnPoint" x="1679" y="84" width="37" height="28"/>
+  <object name="EnemySpawn" x="183" y="658" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="18" y="766" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="242" y="92" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="22" y="186" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="17" y="413" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="20" y="476" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="178" y="417" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="19" y="252" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="276" y="188" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="178" y="604" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="118" y="988" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="209" y="508" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="240" y="254" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="210" y="349" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="146" y="891" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="81" y="541" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+  <object name="EnemySpawn" x="88" y="892" width="21" height="19">
+   <properties>
+    <property name="Enemy" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
